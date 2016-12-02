@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en" ng-app> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Angular Demo </title> 
+    <script src="angular.min.js"></script> 
+    <script> 
+      /*  var app = angular.module("demo",[]);  
+        
+        app.controller("testCtrl",function($scope,$rootScope){ 
+         console.log("Inside test controller");
+         $scope.name = "Jeff"
+        $rootScope.name = "Jeff"; 
+        }); 
+        app.controller("testCtrlNew",function($scope) { 
+            $scope.alertme = function(){ 
+                alert("inside function");            }
+        }); */
+    </script> 
+</head>  
+<body> 
+    <div ng-controller="testCtrl">
+        <h4>4+4={{4+4}}</h4> 
+    </div> 
+   <button ng-click="alertme()">Alert</button> 
+        <h1>{{name}}</h1>
+    </div>
+    <h1> Hello World</h1> 
+</body> 
+</html> 
+    
